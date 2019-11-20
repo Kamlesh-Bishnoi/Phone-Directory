@@ -1,0 +1,57 @@
+/* css for Header */
+  .header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(209, 214, 206);
+    padding:2%;
+    text-transform: uppercase;
+   
+}
+
+  /* css for back Button */
+.backButton{
+  width:13%;
+  padding:1%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+/*css for label filed */
+.labelField{
+ padding:2%;
+}
+/* css for Input Field */
+.inputField{
+  padding:1%;
+ 
+}
+.subscriber{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.addField{
+  line-height: 3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* css for Add Button */
+.addButton{
+  margin-top:2%;
+  width:13%;
+  padding:1%;
+  margin-bottom: 2%;
+}
+.deleteButton{
+  margin-bottom: 5%;
+  width:100%;
+
+}
+@media(max-width:990px)
+{
+  .inputField{
+    display:block;
+  }
+}
+
+.App-link {
+  color: #09d3ac;
+}
